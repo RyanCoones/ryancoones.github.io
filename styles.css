@@ -1,4 +1,44 @@
-body {
-    background-color: #626783;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+/*Main colour scheme*/
+    --background-colour: #525881;
+    --overlay-colour-1: #2e2f3f;
+    --text-colour: #bcc9e7;
+
 }
 
+body {
+    background-color: var(--background-colour);
+    font-family: "Titillium Web", system-ui;;
+}
+
+#title {
+    background-color: var(--overlay-colour-1);
+    color: var(--text-colour);
+    width: 25%;
+    height: 100px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#name {
+    padding: 30px;
+}
+
+#aboutMe {
+    background-color: var(--overlay-colour-1);
+    color: var(--text-colour);
+    width: 66%;
+    height: 400px;
+    transform: translate(27%, 20%);
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+.education {
+    padding-left: 40px;
+}
