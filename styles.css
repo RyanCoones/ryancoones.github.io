@@ -10,14 +10,14 @@
 
 body {
     background-color: var(--background-colour);
-    font-family: "Titillium Web", system-ui;;
+    font-family: "Titillium Web", system-ui;
 }
 
 #title {
     background-color: var(--overlay-colour-1);
     color: var(--text-colour);
     width: 25%;
-    height: 100px;
+    height: 125px;
     margin: auto;
     border-radius: 5px;
     text-align: center;
@@ -30,15 +30,45 @@ body {
 #aboutMe {
     background-color: var(--overlay-colour-1);
     color: var(--text-colour);
-    width: 66%;
-    height: 400px;
-    transform: translate(27%, 20%);
+
+    position:absolute;
+    top: 23%;
+    left: 14%;
+
+    margin:auto;
+    width: 70%;
     border-radius: 5px;
     text-align: left;
     padding-left: 20px;
     padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
-.education {
-    padding-left: 40px;
+#education {
+    background-color: var(--overlay-colour-1);
+    color: var(--text-colour);
+
+    position:absolute;
+    left: 14%;
+    top: 60%;
+
+    margin: auto;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-right: 20px;
+}
+
+.school {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#schoolname, #timeline{
+    display:inline;
+    vertical-align:middle;
+    padding-right: 20px;
 }
