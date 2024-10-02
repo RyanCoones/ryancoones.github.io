@@ -24,19 +24,35 @@ body {
 #title {
     color: var(--text-colour);
     font-weight: 600;
-    font-size: 28px;
+    font-size: 4vh;
+    text-align: center;
 
     position:absolute;
-    top: 11%;
-    left: 10%;
-
+    top: 14vh;
+    left: 12vw;
     margin: auto;
-    border-radius: 5px;
-    text-align: center;
+    
 }
 
-#name {
-    padding: 30px;
+#links {
+    background-color: var(--background-colour);
+    margin: auto;
+    display: inline;
+
+    position: absolute;
+    top:15.4vh;
+    left:32vw;
+
+    border-radius:0.7vw;
+}
+
+#links img {
+    max-width:5vw;
+    max-height:5vh;
+    padding-top:1.3vh;
+    padding-left:0.8vw;
+    padding-right:0.8vw;
+    padding-bottom:1vh;
 }
 
 #aboutMe {
@@ -44,17 +60,17 @@ body {
     color: var(--text-colour);
 
     position:absolute;
-    top: 6%;
-    left: 18%;
+    top: 14vh;
+    left: 18vw;
 
-    margin:auto;
+    margin: auto;
     width: 60%;
-    border-radius: 5px;
+    border-radius: 0.7vw;
     text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    padding-bottom: 3vh;
 }
 
 #education {
@@ -62,40 +78,38 @@ body {
     color: var(--text-colour);
 
     position:absolute;
-    left: 27%;
-    top: 26%;
+    left: 28vw;
+    top: 47vh;
 
     margin: auto;
-    border-radius: 5px;
+    border-radius: 0.7vw;
     text-align: left;
-    padding-top:10px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-bottom: 3vh;
+    padding-right: 2vw;
 }
 
 .school {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 
 #schoolname, #timeline{
     display:inline;
     vertical-align:middle;
-    padding-right: 20px;
+    padding-right: 2vw;
 }
 
 .bottom_body {
     background-color: var(--background-colour);
 
-    width: 101%;
-    height: 200%;
+    width: 100vw;
+    height: 200vh;
 
     position: absolute;
-    top: 90%;
-    margin:0px;
-    padding:0px;
+    top: 90vh;
     display:block;
 
 }
