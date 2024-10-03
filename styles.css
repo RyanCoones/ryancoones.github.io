@@ -55,6 +55,18 @@ body {
     padding-bottom:1vh;
 }
 
+#wip {
+    background-color: var(--background-colour);
+    color: var(--text-colour);
+    margin: auto;
+
+    position:absolute;
+    top:40vh;
+    left:40vw;
+
+    padding:5vh;
+}
+
 #aboutMe {
     background-color: var(--overlay-colour-1);
     color: var(--text-colour);
